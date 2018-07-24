@@ -1,11 +1,11 @@
-pragma solidity ^0.4.12; // 宣告版本
+pragma solidity ^0.4.12; //宣告版本
 
-// import調用模組
+//import調用模組
 import "github.com/OpenZeppelin/zeppelin-solidity/contracts/math/SafeMath.sol";
 
 contract SafeCounter
 {
-    using SafeMath for uint; // 型態喧染
+    using SafeMath for uint; //型態喧染
     uint private count = 0;
     
     function getCount() public constant returns (uint) //取值函數
