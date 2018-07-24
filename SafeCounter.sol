@@ -6,7 +6,6 @@ import "github.com/OpenZeppelin/zeppelin-solidity/contracts/math/SafeMath.sol";
 contract SafeCounter
 {
     using SafeMath for uint; //型態喧染
-    
     uint private count = 0;
     
     function getCount() public constant returns (uint) //取值函數
